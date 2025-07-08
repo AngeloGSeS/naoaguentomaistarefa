@@ -1,0 +1,60 @@
+body {
+    border: 20px solid;
+    border-color: red;
+    animation: testecores 5s linear infinite;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+    @keyframes testecores{
+    0% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: yellow; }
+    100% { border-color: red; }
+}
+main {
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid #cccccc;
+    font-family: 'Verdana', sans-serif;
+}
+
+#titulo-principal, #titulo-sobre {
+    color: #2e8b57;
+    font-family: 'Georgia', serif;
+}
+
+.texto-destaque {
+    color: #1e90ff;
+    font-size: 18px;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333333; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    color: #ff4500; 
+}
+
+.imagem-ajustada {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #000;
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
