@@ -5,7 +5,7 @@ body {
     border-color: red;
     border-radius: 50px;
     animation: testecores 5s linear infinite;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
 
     text-align: center;
